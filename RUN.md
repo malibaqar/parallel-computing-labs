@@ -1,0 +1,1 @@
+CUDA: install the NVIDIA CUDA toolkit and compatible GPU driver; run `nvcc matrix_add.cu -o matrix_add` then `./matrix_add`. The flattened kernel adds a 64×64 matrix elementwise. MPI: install an MPI runtime and requirements; run `mpiexec -n 3 python matrix_multiply.py`. Rows are divided unevenly with array_split. Toolchains are not installed or verified by this package.
